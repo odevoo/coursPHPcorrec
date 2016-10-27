@@ -1,0 +1,88 @@
+body{
+	background-color: #ABABAB;
+}
+h1{
+	color: blue;
+}
+.null{
+	color: red;
+}
+.pNull{
+	color: orange;
+}
+.moyen{
+	color: black;
+}
+.bien{
+	color: green;
+}
+.pmf{
+	color: blue;
+}
+ul{
+	list-style-type: square;
+}
+ul.circle{
+	list-style-type: circle;
+}
+h4
+{
+	margin: 0px;
+	padding: 0px;
+}
+h4:before{
+	content: '* ';
+}
+pre{
+	border: 1px dashed red;
+	background: cyan;
+	padding: 5px;
+	margin: 5px;
+}
+.tableau
+{
+	border: 10px dotted yellow;
+	background: purple;
+	color: white;
+	width: 300px;
+}
+.tableau th
+{
+	color: pink;
+	border: 2px solid lime;
+	border-radius: 60px/20px;
+	padding: 10px;
+}
+.tableau td
+{
+	border: 2px solid lime;
+	border-radius: 15px/30px;
+	padding: 20px;
+	color: cyan;
+}
+label{
+	display: inline-block;
+	width: 100px;
+	margin-bottom: 10px;
+}
+input[type=submit]{
+	position: absolute;
+	top:70px;
+	left: 300px;
+	margin-left: 70px;
+	font-size: 3em;
+	text-shadow: grey 4px 4px;
+	background: linear-gradient(to right, red, orange);
+	color: white;
+	width: 150px;
+	height: 80px;
+	border-radius: 40px;
+}
+option{
+	background-color: black;
+	color: white;
+}
+.imgSexe
+{
+	width: 200px;
+}
